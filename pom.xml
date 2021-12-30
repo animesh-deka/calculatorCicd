@@ -5,10 +5,7 @@
   <groupId>cicd-calculator</groupId>
   <artifactId>calculatorCicd</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <properties>
-   <maven.compiler.source>6</maven.compiler.source>
-   <maven.compiler.target>1.6</maven.compiler.target>
-  </properties>
+ 
   <distributionManagement>
   <snapshotRepository>
     <id>calculatorCICD</id>
@@ -16,4 +13,9 @@
     <url>http://localhost:8081/repository/calculatorCICD/</url>
   </snapshotRepository>
 </distributionManagement>
+  
+  <properties>
+   <maven.compiler.source>6</maven.compiler.source>
+   <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
 </project>
