@@ -38,7 +38,7 @@
     <name>calculatorCICD</name>
     <url>http://localhost:8081/repository/calculatorCICD/</url>
   </snapshotRepository>
-</distributionManagement>
+  </distributionManagement>
   
   <properties>
    <maven.compiler.source>6</maven.compiler.source>
